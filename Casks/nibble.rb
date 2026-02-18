@@ -14,22 +14,22 @@ cask "nibble" do
   on_macos do
     on_intel do
       url "https://github.com/backendsystems/nibble/releases/download/v#{version}/nibble_darwin_amd64.tar.gz"
-      sha256 "2b09440a7af0f8059065948b1f627a7e753f963a9d882c6529c732d2b7d62214"
+      sha256 "1ae988c8a445145b3900af613e39f5a50ab1782f157f669b16e8e7fb7217d9ca"
     end
     on_arm do
       url "https://github.com/backendsystems/nibble/releases/download/v#{version}/nibble_darwin_arm64.tar.gz"
-      sha256 "88496a49903fc7e727a834de03cdd38706f1d86ec21a2ecb8f813e1e5d29dd95"
+      sha256 "f5b9f1f279f640e807be166f89e802a5bc4cd4c6748e594ddb43578073eeb143"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/backendsystems/nibble/releases/download/v#{version}/nibble_linux_amd64.tar.gz"
-      sha256 "1dcd106b33373607635fe6f2ef5157ca6eb223486cea6121a8a289742fab674c"
+      sha256 "287223e8a7733547a958d95e7557789d0a3a92af3fcdb768f8909dc9e4143f3a"
     end
     on_arm do
       url "https://github.com/backendsystems/nibble/releases/download/v#{version}/nibble_linux_arm64.tar.gz"
-      sha256 "2c6e033c87833fa4c125bb8d389917c09d2770c0cb507c9d82a3bef5b084e4a3"
+      sha256 "160bc35a8840f5864302a05286cc1bc601cb38b6dc337b9875862e1f196c2c53"
     end
   end
 
